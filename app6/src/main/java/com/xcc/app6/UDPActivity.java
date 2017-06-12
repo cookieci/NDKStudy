@@ -29,7 +29,7 @@ public class UDPActivity extends AppCompatActivity {
     Button button3;
     private String text = "";//textView文本
 
-    protected void onCreate(Bundle savedInstanceState) {
+    protected void onCreate(Bundle savedInstanceState) {//加条注释看看上传同步效果
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_udp);
         ButterKnife.bind(this);
